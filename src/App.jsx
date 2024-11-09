@@ -14,7 +14,7 @@ function App() {
   const [email, setImale] = useState("");
   const [program, setProgram] = useState("");
   const [graduationYear, setGraduationYear] = useState(2023);
-  const [graduated, setGraduated] = useState(false);
+  const [graduated, setGraduated] = useState(true);
 
   return (
     <div className="App pt-20">
